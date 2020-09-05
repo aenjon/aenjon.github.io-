@@ -1,0 +1,22 @@
+{{ if .Site.Params.giteement.enable }}
+<div id="giteementDiv"></div>
+<link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/default.css">
+<!-- <script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script> -->
+
+<script src="/giteement.browser.js"></script>
+<script>
+var giteement = new Giteement({
+  // id: 'date(page.date, "YYYYMMDDHHmmss")',.format("YYYYMMDDHHmmss")
+  id: '{{.Date}}',
+  owner: '{{.Site.Params.giteement.giteeID}}',
+  repo: '{{.Site.Params.giteement.repo}}',
+  backcall_uri: '{{.Site.Params.giteement.redirect_uri}}',
+  oauth_uri: '{{.Site.Params.giteement.oauth_uri}}',
+  oauth: {
+    client_id: '{{.Site.Params.giteement.ClientID}}',
+    client_secret: '{{.Site.Params.giteement.ClientSecret}}'
+  },
+})
+giteement.render('giteementDiv')
+</script>
+{{ end }}
