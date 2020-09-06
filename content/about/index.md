@@ -7,6 +7,6 @@ description:  全栈开发
 
 公众号，扫码关注
 
-![扫码关注](qrcode_for_weixin.jpg)
+![扫码关注](./img/qrcode_for_weixin.jpg)
 
 
