@@ -11,10 +11,10 @@ description:  全栈开发
 ### 社会驯化我“顺势而为”
 ### 人生唤醒我“跌宕起伏”
     
-![本人](./img/aenjon222.png)!
+![本人](./img/aenjon222.png)
 
 
-[扫码关注](./img/qrcode_for_weixin.jpg)
+![扫码关注](../about/img/qrcode_for_weixin.jpg)
 
 
 公众号，扫码关注

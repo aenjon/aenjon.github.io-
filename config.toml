@@ -56,7 +56,7 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 [[params.ads]]
   title = "知识付费"
   url = "https://blog.csdn.net/farphone"
-  img = "./about/img/qrcode_for_weixin.jpg"
+  img = "../about/img/qrcode_for_weixin.jpg"
 
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
