@@ -2,7 +2,7 @@ baseURL = "https://aenjon.com"
 languageCode = "zh-CN"
 title = "态度的深度" 
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X
+# googleAnalytics = ""  # UA-XXXXXXXX-X
  
 enableRobotsTXT = true
 PaginatePath = "page"
@@ -28,13 +28,13 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   keywords = "java,c++,python,数据，算法，结构，架构"
   description = "数据分析、神经网络、人工智能、机器学习"
   busuanzi = true #启用不算子网页统计
-  googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
+# googleAd = "ca-pub-4031353640611810"  #ca-pub-xxxxxxxxxxxxxx
   localSearch = true # 启用本地搜索
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
-  customCSS = ['douban.css', 'other.css']
+  # customCSS = ['douban.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = ['douban.js']
+  # customJS = ['douban.js']
   # if ['custom.js'], load '/static/js/custom.js' file
 
   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
@@ -56,7 +56,7 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 [[params.ads]]
   title = "知识付费"
   url = "https://blog.csdn.net/farphone"
-  img = "https://aenjon.com/about/qrcode_for_weixin.jpg"
+  img = "./about/img/qrcode_for_weixin.jpg"
 
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
