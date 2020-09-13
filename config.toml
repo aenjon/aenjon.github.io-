@@ -89,9 +89,9 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
     url = "/tips/"
     weight = 2
   [[menu.main]]
-    identifier = "tools"
-    name = "工具"
-    url = "/tools/"
+    identifier = "shiyin"
+    name = "视音"
+    url = "/shiyin/"
     weight = 3
 
   [[menu.main]]
