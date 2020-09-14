@@ -1,7 +1,7 @@
 # Maupassant
 Maupassant theme, ported to Hugo.
 
-1. Preview: [flysnow blog](https://www.aenjon.com)
+1. Preview: [flysnow blog](http://www.aenjon.com)
 2. [中文文档](README.md)
 
 A simple Hugo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [JokerQyou](https://github.com/JokerQyou/maupassant-hugo).
@@ -30,7 +30,7 @@ theme = "maupassant"
 #### Basic Configuration
 
 ```toml
-baseURL = "https://www.aenjon.com"
+baseURL = "http://www.aenjon.com"
 languageCode = "zh-CN"
 title = "态度的高度的博客"
 theme = "maupassant"
@@ -75,11 +75,11 @@ theme = "maupassant"
 [[params.links]]
   title = "Android Gradle权威指南"
   name = "Android Gradle权威指南"
-  url = "https://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
+  url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
 [[params.links]]
   title = "常用开发工具CDN镜像"
   name = "常用开发工具CDN镜像"
-  url = "https://mirrors.aenjon.com/"
+  url = "http://mirrors.aenjon.com/"
 ```
 
 #### TOC
@@ -96,7 +96,7 @@ toc = true
 
 If you want to use local search , please following steps:
 
-1. enabled rss,you can visit `https://127.0.0.1:1313/index.xml` check it.
+1. enabled rss,you can visit `http://127.0.0.1:1313/index.xml` check it.
 2. edit `config.toml` file,add `localSearch = true` under the `[params]`.
 3. new `index.md` file in your `content/search/` dir,and write content for:
 
@@ -127,7 +127,7 @@ Now ,run `hugo server` and try local search.
   img = "https://img.alicdn.com/tfs/TB1aDXhXpzqK1RjSZFvXXcB7VXa-259-194.jpg"
 ```
 
-Ads Preview [https://www.aenjon.com/](https://www.aenjon.com/)
+Ads Preview [http://www.aenjon.com/](http://www.aenjon.com/)
 
 #### Google Analytics
 
@@ -184,7 +184,7 @@ disqusShortname = "yourdiscussshortname"
   ​```
   ```
   
-- flowchart diagram(powered by [flowchart.js](https://flowchart.js.org/))
+- flowchart diagram(powered by [flowchart.js](http://flowchart.js.org/))
   1. Global setting, add below config to `config.toml`.
   
      ```toml
